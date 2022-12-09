@@ -10,7 +10,7 @@ public class Variaveis {
 		int idade = 22;
 		String nome = "Marcos";
 		String nomeDoMeuGato = "Vader";
-		String = "ano2022";
+		String meuAno = "ano2022";
 		
 		
 		//aceito,mas não utilizado
@@ -34,6 +34,7 @@ public class Variaveis {
 		//má prática
 		int a = 10;
 		String b = "Marcos";
+		
 		
 		
 		
