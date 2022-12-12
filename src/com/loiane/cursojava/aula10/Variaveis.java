@@ -11,7 +11,10 @@ public class Variaveis {
 		String nome = "Marcos";
 		String nomeDoMeuGato = "Vader";
 		String meuAno = "ano2022";
-		
+		String nomeAmor = "Katarinne";
+			System.out.println("o nome do meu amor é " + nomeAmor);
+			
+				
 		
 		//aceito,mas não utilizado
 		int _idade;
