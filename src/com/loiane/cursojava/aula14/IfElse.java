@@ -2,14 +2,14 @@ package com.loiane.cursojava.aula14;
 
 import java.util.Scanner;
 
-public class IfElse {
+public class IfElse }
 
 	public static void main(String[] args) {
 		
 	
 		Scanner scan = new Scanner(System.in);
 		
-		/*System.out.println("Digite sua idade: ");
+		System.out.println("Digite sua idade: ");
 		int idade = scan.nextInt();
 		
 			if (idade >= 18){
@@ -17,7 +17,7 @@ public class IfElse {
 				
 			} else {
 				System.out.println("É menor de idade. ");
-			}*/
+			
 			//barato <= 10
 			// 10 < valor < 15 - pedir desconto
 			// 15 <= valor 17 - pesquisar mais 
@@ -41,6 +41,6 @@ public class IfElse {
 				
 				
 			
-	}
+			{
 
 }
