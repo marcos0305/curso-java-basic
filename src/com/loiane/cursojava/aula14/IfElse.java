@@ -2,7 +2,7 @@ package com.loiane.cursojava.aula14;
 
 import java.util.Scanner;
 
-public class IfElse }
+public class IfElse {
 
 	public static void main(String[] args) {
 		
@@ -29,7 +29,7 @@ public class IfElse }
 			
 			if (valor <= 10){
 				System.out.println("Está barato, pode comprar");
-			} else if (valor  < 10 && valor < 15){
+			} else if (valor  > 10 && valor < 15){
 				System.out.println("Você pode pedir um desconto");
 			} else if (valor >= 15 && valor < 17){
 				System.out.println("Pode pesquisar mais");
@@ -39,8 +39,7 @@ public class IfElse }
 				
 					
 				
-				
-			
-			{
+			}
+		}	
+	}
 
-}
