@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ComandoBreakEContinue {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		
 		
@@ -27,7 +29,7 @@ public class ComandoBreakEContinue {
 		
 		// CONTINUE //
 		 
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		
 		System.out.println("Entre com um numero: ");
 		int num = scan.nextInt();

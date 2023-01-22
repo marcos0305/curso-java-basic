@@ -4,11 +4,10 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		
-		double tempDia001 = 31.3;
-		double tempDia002 = 32;
-		double tempDia003 = 33.7;
-		double tempDia004 = 34;
-		double tempDia005 = 33.1;
+		//double tempDia01 = 31.3;
+		//double tempDia03 = 33.7;
+		//double tempDia04 = 34;
+		//double tempDia05 = 33.1;
 		
 		//ARRAYS
 		double [] temperaturas = new double [365]; 
