@@ -10,33 +10,33 @@ public class Aluno {
 	
 	
 	void mostrarInfo() {
-		System.out.println("Nome: "+ nome);
-		System.out.println("Matricula: "+ matricula);
-		System.out.println("Curso: "+ curso);
+		System.out.println("Nome: " + nome);
+		System.out.println("Matricula: " + matricula);
+		System.out.println("Curso: " + curso);
 
-		for(int i=0; i<disciplinas.length; i++) {
+		for(int i=0; i<disciplinas.length; i++){
 			System.out.println("Notas da disciplina " + disciplinas[i]);
-			for(int j=0; j<notas[i].length; j++) {
+			for(int j=0; j<notas[i].length; j++){
 				System.out.println(notas[i][j] +"");
 			}
 			System.out.println();
 		}
 	}
-	 boolean verificarAprovado(int indice) {
+	 boolean verificarAprovado(int indice){
 		 
 		 double soma = 0;
 		 		 
-		 for(int i=0; i<notas[indice].length; i++) {
+		 for(int i=0; i<notas[indice].length; i++){
 			soma += notas[indice][i];		 					 
 		 }
 		 
 		 double media = soma / 4;
 		 
-		 if(media >= 7) {
+		 if(media >= 7){
 			 
 			 return true;
 			 
-		 }else {
+		 }else{
 			 
 			 return false;
 			 
