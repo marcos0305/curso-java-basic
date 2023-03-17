@@ -8,6 +8,7 @@ public class TesteCarro {
 	Carro van = new Carro("Fiat", "GOL");
 	
 	System.out.println(van.numPassageiro);
+	
+		
 	}
-
 }
