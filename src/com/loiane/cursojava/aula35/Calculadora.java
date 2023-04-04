@@ -23,6 +23,7 @@ public class Calculadora {
 	//fatorial(2) = 2 * fatotial(1)
 	//fatorial(1) = 1 * fatotial(0)
 	//fatorial(0) = 1;
+	
 	public static int fatorial(int num) {
 		
 		if (num == 0) {

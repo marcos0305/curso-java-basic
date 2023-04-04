@@ -4,9 +4,8 @@ public class TesteCalculadora {
 
 	public static void main(String[] args) {
 		
-		int FatorialNR = Calculadora.fatorialNaoRecursivo(5);
-			System.out.println(FatorialNR);
-			
+		int FatorialRN = Calculadora.fatorialNaoRecursivo(5);
+			System.out.println(FatorialRN);
 			
 		int FatorialR = Calculadora.fatorial(5);
 			System.out.println(FatorialR);
