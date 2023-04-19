@@ -7,5 +7,8 @@ public class TesteCarro {
 		Carro van = new Carro();
 		van.setMarca("Fiat");			
 			System.out.println(van.getMarca());
+			
+			van.setNumPassageiro(52);
+				System.out.println(van.getNumPassageiro());
 	}
 }
