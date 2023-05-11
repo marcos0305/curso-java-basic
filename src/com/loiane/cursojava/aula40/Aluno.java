@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula40;
+  package com.loiane.cursojava.aula40;
 
 public class Aluno extends Pessoa {
 
@@ -39,7 +39,7 @@ public class Aluno extends Pessoa {
 	
 	public String obterEtiquetaEndereco() {
 		
-		String s = "Endereço do Aluno ";
+		String s = "Endereco do Aluno ";
 		s += super.getEndereco();
 		
 		return s;

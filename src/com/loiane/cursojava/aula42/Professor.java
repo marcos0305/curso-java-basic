@@ -29,12 +29,9 @@ public class Professor {
 	public String obterEtiquetaEndereco() {
 
 		String s = "Endereço do Professor";
-		// s += super.getEndereco();
-
 		return s;
-
 	}
-
+ 
 	// @Override
 	public void imprimirEtiquetaEndereco() {
 
