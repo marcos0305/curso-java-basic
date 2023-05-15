@@ -34,9 +34,9 @@ public class PessoaFisica extends Contribuinte {
 	public String toString() {
 		String s = "Pessoa Fisica[";
 		s += super.toString();
-		s += " ;cpf: " + cpf;
+		s += " ;CPF: " + cpf;
 		s += " ;imposto a ser pago: " + calcularImposto();
-		s += " ]";
+		s += "]";
 		return s;
 	}
 

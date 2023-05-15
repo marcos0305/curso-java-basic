@@ -43,7 +43,7 @@ public class Teste {
 		contribuintes[5] = p6;
 
 		for (Contribuinte c : contribuintes) {
-			System.out.println(c);
+			System.out.println(c.toString());
 
 		}
 
