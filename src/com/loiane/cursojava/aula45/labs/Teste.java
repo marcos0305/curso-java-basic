@@ -19,7 +19,7 @@ public class Teste {
 		f4.setNome("Cubo");
 		Cilindro f5 = new Cilindro();
 		f5.setAltura(3);
-		f5.setRaio(2);
+		f5.setRaio(2);				
 		f5.setNome("Cilindro");
 		Piramide f6 = new Piramide();
 		f6.setAltura(3);
