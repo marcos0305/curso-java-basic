@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula48;
+package com.loiane.cursojava.aula49;
 
 public class TestantoFinally {
 
